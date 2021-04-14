@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 20, y: -184}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 4.5943, y: -159.5}
+  m_SizeDelta: {x: 61.5637, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &654150376
 MonoBehaviour:
@@ -623,8 +623,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 20, y: -220}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 66.15801, y: -159.5}
+  m_SizeDelta: {x: 129.2457, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1080156257
 MonoBehaviour:
@@ -891,8 +891,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -860, y: 309.776}
-  m_SizeDelta: {x: -1720, y: -619.553}
+  m_AnchoredPosition: {x: -860, y: 281.29132}
+  m_SizeDelta: {x: -1720, y: -562.5837}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1189914579
 MonoBehaviour:
@@ -962,14 +962,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingPrefabs:
-  - {fileID: -8679921383154817045, guid: a0bf0229e7cd65d46a1ddb5dba333045, type: 3}
-  - {fileID: -8679921383154817045, guid: 35d8d72d307a73144933cb589bdf92d8, type: 3}
-  - {fileID: -8679921383154817045, guid: 2e3b8363b2c1197488a09d5e6c3d7123, type: 3}
-  - {fileID: -8679921383154817045, guid: 3386febbf981a654fa6e8511634617e3, type: 3}
-  - {fileID: -8679921383154817045, guid: 446f360b6dc1d8f48aff7114864026d8, type: 3}
-  - {fileID: -8679921383154817045, guid: 2f99390c3eb4d4148ac7232b893353fd, type: 3}
-  - {fileID: -8679921383154817045, guid: 2f99390c3eb4d4148ac7232b893353fd, type: 3}
-  buildingSize: {x: 1, y: 1, z: 1}
+  - {fileID: 8393099308596736388, guid: 04a61071882e08a498d056d2393aec1a, type: 3}
+  - {fileID: 2437648432748894969, guid: ae872b95e7d5d104f80ed07eaa27401d, type: 3}
+  - {fileID: 8812266104163484845, guid: 8b2836206634da3469e499a19190ce04, type: 3}
+  - {fileID: 8246600010124361751, guid: cdbc8b28f14ab3f459983f44bb22ebd5, type: 3}
+  - {fileID: 1137834166604248070, guid: 6a8e1d11452e5f7438be708ddcbd3231, type: 3}
 --- !u!4 &1299681269
 Transform:
   m_ObjectHideFlags: 0
@@ -1303,7 +1300,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Destroy City
+  m_Text: Destroy
 --- !u!222 &1923910799
 CanvasRenderer:
   m_ObjectHideFlags: 0
