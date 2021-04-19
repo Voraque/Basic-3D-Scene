@@ -1,22 +1,19 @@
-using DG.Tweening;
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Building : MonoBehaviour
 {
     [SerializeField] Vector3 buildingSize = Vector3.one;
-    [SerializeField] Ease movementEase = Ease.Linear;
 
     public float moveDuration { get; set; } = 3f;
-    float buildingScaleFactor = 0.5f;
     Vector2 offset = new Vector2(0.5f, 0.5f);
-  
+    float[] buildingRotationOptions = new float[] {0f, 90f, 180f, 270f};
+
     public void SetBuildingLocation(int x, int y) {
         Vector3 direction = new Vector3(x + offset.x, 0f, y + offset.y);
-        transform.localScale = buildingSize * buildingScaleFactor;
-        transform.DOMove(direction, moveDuration);
+        Quaternion target = Quaternion.Euler(
+            transform.rotation.x, buildingRotationOptions[Random.Range(0, 3)], transform.rotation.z);
+        transform.localPosition = direction;
+        transform.localRotation = target;
     }
 
     public void DestroyBuilding() {
